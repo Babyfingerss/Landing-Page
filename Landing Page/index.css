@@ -1,0 +1,190 @@
+a {
+    text-decoration: none;
+}
+.content{
+    text-decoration: none;
+    padding-bottom: 2em;
+    position: relative;
+    margin-top: -7.2em;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    margin-bottom: -15em; 
+}
+.image{
+    width: 427px;
+    height: 576px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    z-index: -1;
+    width: 510px;
+    background-size: cover;
+}
+.header, .signmeup {
+    padding: 6.75rem 8vw;
+}
+.title{
+    width: 425px;
+    height: 212px;
+    top: 108px;
+    left: 42px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Bebas Neue;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 76.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding: 1em 0em 1em 0em;
+    margin-left: .6em;
+}
+.title-text{
+    width: 424px;
+    height: 61px;
+    top: 402px;
+    left: 42px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 6em;
+    color: white;
+    padding: 0em 1em 1em 1em;
+    margin-top: -.5em;
+    margin-left: .6em;
+}
+.name, .email{
+    width: 55px;
+    height: 27px;
+    top: 658px;
+    left: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 2.1em;
+}
+.signup-btn{
+    width: 432px;
+    height: 63px;
+    border: none;
+    background: #5200FF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+input{
+    width: 427px;
+    height: 65px;
+    top: 845px;
+    left: 41px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #EDEDED;
+    border: 1px solid #C7C7C7;
+    margin-left: 2.7em;
+}
+
+@media (min-width: 760px) {
+    .image{
+        width: 770px;
+        height: 576px;
+    }
+    .title{
+        width: 642px;
+        height: 212px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-text{
+        width: 641px;
+        height: 61px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input{
+        width: 303px;
+        height: 65px;
+        border: 1px 0px 0px 0px;
+    }
+    .signup{
+        display: flex;
+        flex-direction: row;
+    }
+    .signup-btn{
+        margin-left: 1.9em;
+        margin-top: 4em;    
+    }
+}
+@media (min-width: 1000px) {
+    .image{ 
+        width: 631px;
+        height: 110%;
+        padding: 0;
+        margin-top: -3.8em;
+        margin-left: -.5em;
+        padding-bottom: 0em;
+        object-fit: cover;
+    }
+    .title{
+        width: 423px;
+        height: 239px;
+        margin-left: 1em;
+    }
+    .title-text{
+        width: 423px;
+        height: 90px;
+        margin-left: 1em;
+    }
+    input{
+        width: 422px;
+        height: 65px;
+    }
+    .signup-btn{
+        /* margin-left: 1.9em; */
+        margin-top: 4em;   
+        width: 183px;
+        height: 63px;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        padding-bottom: 0em;
+    }
+    .signup{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7em;
+    }
+    .signmeup{
+        
+    }
+}
+
+    
+
